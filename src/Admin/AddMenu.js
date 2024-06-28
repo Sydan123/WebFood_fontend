@@ -6,6 +6,8 @@ import {link} from '../Utils/Link';
 import axios from 'axios';
 import * as FetchAPI from '../Utils/FetchAPI';
 import {FcApproval} from 'react-icons/fc';
+
+
 export default function AddMenu(){
     const history = useHistory();
     const [dataAdd, setdataAdd] = useState({tendanhmuc:'',hinhanh:''});
@@ -14,7 +16,7 @@ export default function AddMenu(){
     const imageRef = useRef()
     const [showSuccess, setShowSucess] = useState(false);
     const handleClose = () => setShowSucess(false);
-
+// hellos
     function useDisplayImage() {
         const [result, setResult] = useState("");
         function uploader(e) {
